@@ -1,0 +1,15 @@
+{
+	"input" : [
+		{ "item" : "rainbowwood", "count" : 20 },
+		{ "item" : "prisiliteore", "count" : 10 },
+		{ "item" : "siliconboard", "count" : 3 },
+		{ "item" : "wire", "count" : 10 },
+		{ "item" : "battery", "count" : 1 }
+	],
+	"output" : {
+		"item" : "dyestation",
+		"count" : 1
+	},
+	"duration" : 5,
+	"groups" : [ "inventorstable3", "craftingstations", "all" ]
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "dyestation",
+  "colonyTags" : [],
+  "printable" : false,
+  "rarity" : "Legendary",
+
+  "category" : "other",
+  "price" : 500,
+  "description" : "One dye to rule them all!",
+  "shortdescription" : "Dye Station",
+  "race" : "generic",
+
+  "inventoryIcon" : "dyestationicon.png",
+  "orientations" : [
+    {
+      "image" : "dyestation.png:<color>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "dyestation.png:<color>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "health" : 1.5,
+  "objectType" : "container",
+  "openSounds" : [ "/sfx/objects/mannequin_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/mannequin_close.ogg" ],
+  "slotCount" : 1,
+  "uiConfig" : "/interface/scripted/dyestation/dyestation.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/objects/crafting/dyestation/dyestation.lua" ]
+}
